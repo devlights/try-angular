@@ -1,0 +1,14 @@
+image:
+  file: .gitpod.Dockerfile
+
+tasks:
+  - name: initial
+    command:
+      ng --version
+
+
+vscode:
+  extensions:
+    - Angular.ng-template
+    - golang.go
+    - TakumiI.markdowntable
